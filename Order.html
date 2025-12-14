@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">  
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Order Page">
+    <link href="../CSS/Style.css" type="text/css" rel="stylesheet">
+    <title>    
+      Ordering
+    </title>
+  </head>
+  <body>
+
+  <nav class="sticky">
+      <a href="Index.html"><img src="../Bilder/Freya-LOGO.png" alt="Freya-LOGO" width="133" height="100" id="homeIcon"></a>
+      <div class="hasSubMenu">
+        <a href="Packages.html" class="aText">Packages</a>
+        <div class="subMenu">
+          <a href="Weddings.html" class="aText">Weddings<br><img src="./Bilder/vigselringar2.png" class="subIcon"></a>
+          <a href="Birthdays.html" class="aText">Birthdays<br><img src="./Bilder/cakeAndBallons.png" class="subIcon"></a>
+          <a href="Studio.html" class="aText">Studio<br><img src="./Bilder/studioIcon.png" class="subIcon"></a>
+          <a href="Modelportfolio.html" class="aText">Portfolio<br><img src="./Bilder/Portfolio.png" class="subIcon"></a>
+        </div>
+      </div>
+      <a href="Order.html" class="aText" id="menuActive">Order</a>
+      <a href="About.html" class="aText">About</a>
+  </nav>
+
+<div class="leafBoardLeft"></div>
+<div class="leafBoardRight"></div>
+
+<h1 class="ContextHeaders">Fill out the form and we will contact you as soon as possible</h1>
+<form id="MoneyForMe">
+  <label for="FirstName" class="formLab">*First name:</label>
+  <input type="text" id="FirstName" class="formFill">
+  <br><label for="LastName" class="formLab">*Last name:</label>
+  <input type="text" id="LastName" class="formFill">
+    <br><label for="Phonenumber" class="formLab">Phone-number:</label>
+  <input type="text" id="Phonenumber" class="formFill">
+  <br><label for="EmailAdress" class="formLab">*Email:</label>
+  <input type="text" id="EmailAdress">
+  <p>What kind of service are you interested in?</p>
+  <div class="radioRow">
+    <label for="Wedding" class="radioFlex">Wedding</label>
+    <input type="radio" id="Wedding" name="OrderService" value="Wedding" class="radioFlex">
+    <label for="Birthday" class="radioFlex">Birthday</label>
+    <input type="radio" id="Birthday" name="OrderService" value="Birthday" class="radioFlex">
+    <label for="Graduation" class="radioFlex">Graduation</label>
+    <input type="radio" id="Graduation" name="OrderService" value="Graduation" class="radioFlex">
+  </div>
+  <div class="radioRow">
+    <label for="Pregnancy" class="radioFlex">Pregnancy</label>
+    <input type="radio" id="Pregnancy" name="OrderService" value="Pregnancy" class="radioFlex">
+    <label for="Other" class="radioFlex">Other</label>
+    <input type="radio" id="Other" name="OrderService" value="Other" class="radioFlex">
+  </div>
+
+
+  <br><textarea name="message" rows="5" cols="30">
+Here you can add any extra requests or special needs.
+  </textarea>
+  <br>
+  <input type="submit" name="Send" value="Send">
+</form>
+
+<p id="formReq">* = Required</p>
+
+
+
+<footer>
+  <div>
+    <p class="FooterHeads">Contact us</p>
+    <p class="FooterNormal">0123-456789</p>
+    <p>Freya-Photo@info.com</p>
+  </div>
+  <div>
+    <p class="FooterHeads">Find us</p>
+    <p class="FooterNormal">Bogus street 123, Miami</p>
+    <p><a class="ShadowBoxes"  href="https://www.google.com/maps/d/embed?mid=1XRFN70brupVuTdhY-EWwoRFMaYg&msa=0&ie=UTF8&t=m&ll=25.76410650536686%2C-80.14304010132975&spn=0.015457%2C0.027466&z=11&output=embed"><img src="../Bilder/Googlemaps-Logo.png" alt="Google maps logo" width="20" height="25"></a></p>
+  </div>
+  <div>
+    <p class="footerHeads">Follow us</p>
+    <a class="ShadowBoxes" href="http://www.facebook.com"><img src="../Bilder/Facebook-Logo.png" alt="Facebook logo" height="25" width="25"></a>
+    <br><a class="ShadowBoxes" href="http://www.instagram.com"><img src="../Bilder/Instagram-Logo.png" alt="Instagram logo" height="25" width="25"></a>
+  </div>
+  <div>
+    <a class="ShadowBoxes" id="ButBackToTop" href="#top"><img src="../Bilder/But-Back-To-Top.png" alt="Left pointing arrow" width="100" height="100"></a>
+  </div>
+
+</footer>
+
+</body>
+
+</html>

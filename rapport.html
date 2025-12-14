@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport för uppgift 3 i Webbteknik 1</title>
+    <style>
+        html {
+            font-size: 16px
+        }
+
+        body {
+            background-color: #FFF;
+            color: #000;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            max-width: 80ch;
+            margin-left: 2ch;
+        }
+
+        header,
+        section {
+            border-bottom: 1px solid #999;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        h2 {
+            margin-bottom: 0.2em;
+        }
+
+        h3 {
+            margin-top: 0.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Rapport för uppgift 3</h1>
+    </header>
+    <main>
+        <section>
+            <h2>1. Syfte och målgrupp</h2>
+            <p>I uppgiften skapades en webbplats för ...
+                Webbplatsen skapades för en fotograf som erbjuder sina tjänster, såsom studiobilder och platsbestämda fotograferingar.
+                Genom webbplatsen får fotografen en tydlig kanal för att visa upp sina tjänster och tidigare arbeten, 
+                samt för att ta emot förfrågningar från kunder.
+            </p>
+            <p>Syfte med webbplatsen är ...
+                Syftet med webbplatsen är att marknadsföra fotografens tjänster och generera nya kundkontakter.
+                För användaren är syftet att enkelt kunna hitta information om fotografen, 
+                ta del av exempel på tidigare arbeten och ta kontakt för bokning.
+            </p>
+            <p>Målgruppen består av ...
+                Målgruppen består främst av yngre vuxna som är aktiva på sociala medier, exempelvis influencers eller privatpersoner som vill ha professionella bilder.
+                Webbplatsen riktar sig även till familjer som vill föreviga viktiga tillfällen som bröllop och födelsedagar, 
+                samt personer som behöver professionella bilder i arbetssammanhang.
+            </p>
+            <h3>Användarnas behov</h3>
+            <ul>
+              <li>Kunna se exempel på fotografens tidigare arbeten.</li>
+              <li>Skapa minnen av stunder. så som bröllopsbilder.</li>
+              <li>Kunna ge icke närvarande personer minnen av ex. släktingar.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>2. Kravspecifikation</h2>
+            <h3>Innehåll</h3>
+            <ul>
+              <li>Webbplatsen ska innehålla ett galleri med minst 6 fotografier.</li>
+              <li>Webbplatsen ska innehålla ett kontaktformulär.</li>
+              <li>Webbplatsen ska innehålla information om de tjänster som erbjuds.</li>
+              <li>lokal navigation till dom olika tjänsterna som "vi" erbjuder.</li>
+            </ul>
+            <h3>Funktion</h3>
+            <!-- Skriv korta konkreta och mätbara krav som beskriver VAD said user ska kunna göra. -->
+            <ul>
+                <li>Ta sig fram enkelt på sidan, både med tydliga rubriker på varje sida och även lätt navigering.</li>
+                <li>Kunna använda sin telefon utan att missa innehåll eller bli störd av dålig responsiv design.</li>
+                <li>Användaren ska kunna skicka en förfrågan via kontaktformuläret.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>3. Beskrivning av arbetet</h2>
+            <!-- Beskriv hur du arbetat med uppgiften. -->
+            <!-- För VG är det viktigt att du beskriver hur du använt Garretts modell och tar med referenser med sidnummer till boken, för att styrka det du tar upp i din text. Se mer info i rutan om referenser på uppgiftens webbsida. -->
+            <p>Arbetet inleddes med att analysera webbplatsens syfte och målgrupp.
+              Utifrån detta togs en kravspecifikation fram enligt Garretts modell, där fokus låg på innehåll och funktion.
+              Därefter skapades webbplatsens struktur och innehåll, följt av implementation i HTML och CSS.
+              Under arbetets gång testades webbplatsen kontinuerligt för att säkerställa att kraven uppfylldes.
+              Med tidens gång så förbättrades designen men tyvärr så brast tiden och även kunskapen till och från.
+              Därför är vissa delar av webbplatsen inte fullt ut responsiv eller optimerad för alla enheter.
+              Dock har jag lärt mig mycket under arbetets gång, särskilt kring vikten av planering och användartestning i webbutveckling.
+            </p>
+        </section>
+        <section>
+            <h2>4. Bilder</h2>
+            <p>Bilderna har redigerats i ett bildredigeringsprogram, där följande gjorts:</p>
+            <ul>
+                <li>beskärts ner på pixlar för lägre laddningstid.</li>
+                <li>Gjort om enstaka bildformat för att bilden ska bli mindre att ladda in.</li>
+                <li>Byt från färg till svartvit.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>5. Utvärdering mot kravspecifikationen</h2>
+            <ul>
+              <li>Webbplatsen ska innehålla ett galleri med minst 6 fotografier.
+                - Jag har inte inkluderat minst 6 fotografier på olika sidor av webbplatsen, vilket inte uppfyller detta krav. Även då med en viss miss med referenser till garrets surface plane (Garrett, 2011, s.20)
+                Då man har sökandet efter mer interaktivitet på sidan så som att kunna se bilder i större format vid klick. Detta är något jag skulle vilja implementera i framtiden.
+                Men för tillfället så uppfyller sidan kravet med bilder på varje undersida.
+              </li>
+              <li>Webbplatsen ska innehålla ett kontaktformulär.
+                - Kontaktformuläret är implementerat på "Order.html" sidan, vilket gör det möjligt för användare att skicka förfrågningar direkt via webbplatsen.
+                Detta uppfyller kravet enligt kravspecifikationen.
+                Det finns även flertal länkar till denna sida från andra sidor för att underlätta navigering och snabbare övergång till kontakt istället för att bara titta på hemsidan.
+                Om man tänker på garrets model så är det halvt uppfyllt (Garrett, 2011, s.21).
+                Då det finns länkar och så men det är inte lika framträdande som det skulle kunna vara med att erbjuda extra saker till paketen.
+              </li>
+              <li>Webbplatsen ska innehålla information om de tjänster som erbjuds.
+                - Varje tjänst har en dedikerad sida med detaljerad information, vilket gör det enkelt för användare att förstå vad som erbjuds.
+                Tyvärr så kan en fotograf erbjuda mer än vad som finns på sidan just nu. Då meningen är en varierande och utbytbar tjänst.
+                Det är för tillfället en statig struktur men till referens av garrets model, the structure plane så är det något uppfyllt (Garrett, 2011, s.20).
+                Alltså man kan lätt navigera till det "vanliga" tjänsterna som erbjuds men öppnar inte upp så mycket för mer anpassade tjänster.
+              </li>
+              <li>lokal navigation till dom olika tjänsterna som "vi" erbjuder.
+                - Känns ganska given att det bara måste fungera och det gör det i mina ögon.
+              </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
