@@ -242,6 +242,7 @@ hr{
 }
 .localImg{
   border-radius: 20px;
+  min-width: 330px;
   max-width: 500px;
   gap: 50px;
 }
