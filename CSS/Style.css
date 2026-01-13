@@ -73,9 +73,6 @@ div > a{
     text-decoration: none;
     color: rgb(58, 126, 91);
 }
-.subIcon{
-  height: 50px;
-}
 .hasSubMenu:hover .subMenu{
   visibility: visible;
   display: grid;
@@ -156,11 +153,14 @@ div ul{
     justify-content: center;
 }
 .picRound{
+  min-width: 330px;
   max-width: 500px;
-    border-radius: 50%;
+  border-radius: 50%;
 }
 .picHalfRound{
-    border-radius: 20%;
+  min-width: 330px;
+  max-width: 500px;
+  border-radius: 20%;
 }
 .moreSpace{
     margin-top: 5px;
@@ -245,9 +245,6 @@ hr{
   max-width: 500px;
   gap: 50px;
 }
-.localIcon{
-  max-width: 250px;
-}
 #contactBuy{
   display: block;
   width: fit-content;
@@ -280,7 +277,8 @@ hr{
         padding: 10px;
     }
     #homeIcon{
-      max-width: 75px;
+      max-width: 100%;
+      max-height: 100%;
     }
     div div{
         width: 90%;
